@@ -18,7 +18,7 @@ class IrisInput(BaseModel):
 
 @lru_cache
 def get_model():
-    return joblib.load(MODEL_PATH)  # Only load trusted, project-generated artifacts.
+    return joblib.load(MODEL_PATH)
 
 app = FastAPI(title='Clasificador Iris', version='1.0.0')
 
