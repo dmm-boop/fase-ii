@@ -1,0 +1,23 @@
+{
+  "dataset": "sklearn.datasets.load_iris",
+  "samples_train": 120,
+  "samples_test": 30,
+  "accuracy": 0.9,
+  "confusion_matrix": [
+    [
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      9,
+      1
+    ],
+    [
+      0,
+      2,
+      8
+    ]
+  ]
+}
